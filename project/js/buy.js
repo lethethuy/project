@@ -2,10 +2,10 @@
 //   {
 //     name: "ÁO SƠ MI OXFORD CỔ TRỤ",
 //     price: "899.000",
-//     img: "./img/buy1.jpeg",
-//     img1: "./img/buy11.jpeg",
-//     img2: "./img/buy12.jpeg",
-//     img3: "./img/buy13.jpeg",
+//     img: "../img/buy1.jpeg",
+//     img1: "../img/buy11.jpeg",
+//     img2: "../img/buy12.jpeg",
+//     img3: "../img/buy13.jpeg",
 //     id: 1,
 //     quantity: 100,
 //     amount: 1,
@@ -13,10 +13,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI LINEN - COTTON",
 //     price: "1.299.000",
-//     img: "./img/buy2.jpeg",
-//     img1: "./img/buy21.jpeg",
-//     img2: "./img/buy22.jpeg",
-//     img3: "./img/buy23.jpeg",
+//     img: "../img/buy2.jpeg",
+//     img1: "../img/buy21.jpeg",
+//     img2: "../img/buy22.jpeg",
+//     img3: "../img/buy23.jpeg",
 //     id: 2,
 //     quantity: 100,
 //     amount: 1,
@@ -24,10 +24,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI LINEN  COTTON",
 //     price: "1.299.000",
-//     img: "./img/buy3.jpeg",
-//     img1: "./img/buy31.jpeg",
-//     img2: "./img/buy32.jpeg",
-//     img3: "./img/buy33.jpeg",
+//     img: "../img/buy3.jpeg",
+//     img1: "../img/buy31.jpeg",
+//     img2: "../img/buy32.jpeg",
+//     img3: "../img/buy33.jpeg",
 //     id: 3,
 //     quantity: 100,
 //     amount: 1,
@@ -35,10 +35,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI COTTON - LINEN CHẦN CHỈ NỔI",
 //     price: "1.299.000",
-//     img: "./img/buy4.jpeg",
-//     img1: "./img/buy41.jpeg",
-//     img2: "./img/buy42.jpeg",
-//     img3: "./img/buy43.jpeg",
+//     img: "../img/buy4.jpeg",
+//     img1: "../img/buy41.jpeg",
+//     img2: "../img/buy42.jpeg",
+//     img3: "../img/buy43.jpeg",
 //     id: 4,
 //     quantity: 100,
 //     amount: 1,
@@ -46,10 +46,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI DỆT",
 //     price: "1.299.000",
-//     img: "./img/buy5.jpeg",
-//     img1: "./img/buy51.jpeg",
-//     img2: "./img/buy52.jpeg",
-//     img3: "./img/buy53.jpeg",
+//     img: "../img/buy5.jpeg",
+//     img1: "../img/buy51.jpeg",
+//     img2: "../img/buy52.jpeg",
+//     img3: "../img/buy53.jpeg",
 //     id: 5,
 //     quantity: 100,
 //     amount: 1,
@@ -57,10 +57,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI JACQUARD HỌA TIẾT CÂY CỌ",
 //     price: "1.299.000",
-//     img: "./img/buy6.jpeg",
-//     img1: "./img/buy61.jpeg",
-//     img2: "./img/buy62.jpeg",
-//     img3: "./img/buy63.jpeg",
+//     img: "../img/buy6.jpeg",
+//     img1: "../img/buy61.jpeg",
+//     img2: "../img/buy62.jpeg",
+//     img3: "../img/buy63.jpeg",
 //     id: 6,
 //     quantity: 100,
 //     amount: 1,
@@ -68,10 +68,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI LINEN - VISCOSE",
 //     price: "1.299.000",
-//     img: "./img/buy7.jpeg",
-//     img1: "./img/buy71.jpeg",
-//     img2: "./img/buy72.jpeg",
-//     img3: "./img/buy73.jpeg",
+//     img: "../img/buy7.jpeg",
+//     img1: "../img/buy71.jpeg",
+//     img2: "../img/buy72.jpeg",
+//     img3: "../img/buy73.jpeg",
 //     id: 7,
 //     quantity: 100,
 //     amount: 1,
@@ -79,10 +79,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI DỆT",
 //     price: "1.299.000",
-//     img: "./img/buy8.jpeg",
-//     img1: "./img/buy81.jpeg",
-//     img2: "./img/buy82.jpeg",
-//     img3: "./img/buy83.jpeg",
+//     img: "../img/buy8.jpeg",
+//     img1: "../img/buy81.jpeg",
+//     img2: "../img/buy82.jpeg",
+//     img3: "../img/buy83.jpeg",
 //     id: 8,
 //     quantity: 100,
 //     amount: 1,
@@ -90,10 +90,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI DỆT",
 //     price: "1.299.000",
-//     img: "./img/buy9.jpeg",
-//     img1: "./img/buy91.jpeg",
-//     img2: "./img/buy92.jpeg",
-//     img3: "./img/buy93.jpeg",
+//     img: "../img/buy9.jpeg",
+//     img1: "../img/buy91.jpeg",
+//     img2: "../img/buy92.jpeg",
+//     img3: "../img/buy93.jpeg",
 //     id: 9,
 //     quantity: 100,
 //     amount: 1,
@@ -101,10 +101,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI DỆT CO GIÃN",
 //     price: "1.299.000",
-//     img: "./img/buy10.jpeg",
-//     img1: "./img/buy101.jpeg",
-//     img2: "./img/buy102.jpeg",
-//     img3: "./img/buy103.jpeg",
+//     img: "../img/buy10.jpeg",
+//     img1: "../img/buy101.jpeg",
+//     img2: "../img/buy102.jpeg",
+//     img3: "../img/buy103.jpeg",
 //     id: 10,
 //     quantity: 100,
 //     amount: 1,
@@ -112,10 +112,10 @@
 //   {
 //     name: "ÁO SƠ MI OXFORD",
 //     price: "1.299.000",
-//     img: "./img/buy11.jpeg",
-//     img1: "./img/buy111.jpeg",
-//     img2: "./img/buy112.jpeg",
-//     img3: "./img/buy113.jpeg",
+//     img: "../img/buy11.jpeg",
+//     img1: "../img/buy111.jpeg",
+//     img2: "../img/buy112.jpeg",
+//     img3: "../img/buy113.jpeg",
 //     id: 11,
 //     quantity: 100,
 //     amount: 1,
@@ -123,10 +123,10 @@
 //   {
 //     name: "ÁO SƠ MI VẢI LYOCELL - COTTON",
 //     price: "1.299.000",
-//     img: "./img/buy12.jpeg",
-//     img1: "./img/buy121.jpeg",
-//     img2: "./img/buy122.jpeg",
-//     img3: "./img/buy123.jpeg",
+//     img: "../img/buy12.jpeg",
+//     img1: "../img/buy121.jpeg",
+//     img2: "../img/buy122.jpeg",
+//     img3: "../img/buy123.jpeg",
 //     id: 12,
 //     quantity: 100,
 //     amount: 1,
@@ -135,7 +135,7 @@
 
 // localStorage.setItem("dataProduct", JSON.stringify(dataProduct));
 
-let dataProduct = JSON.parse(localStorage.getItem("dataProduct"));
+let dataProduct = JSON.parse(localStorage.getItem("dataProduct")) || [];
 // console.log(dataProduct);
 let dataCart = JSON.parse(localStorage.getItem("dataCart")) || [];
 // console.log(dataCart);
@@ -182,7 +182,7 @@ renderProduct();
 let bagicon = document.getElementById("icon-bag");
 // console.log(bagIcon);
 bagicon.onclick = function () {
-  window.location = "http://127.0.0.1:5500/Cart.html";
+  window.location = "./Cart.html";
 };
 
 // Ủy quyền sự kiện cho nút add của mỗi nút cộng trong ảnh

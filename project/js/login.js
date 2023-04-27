@@ -1,7 +1,7 @@
 let btnRegister = document.getElementById("btn-register");
 
 btnRegister.onclick = function () {
-  window.location = "http://127.0.0.1:5500/register.html?";
+  window.location = "./register.html?"; 
 };
 
 let loginForm = document.getElementById("login-main");
@@ -20,7 +20,7 @@ loginForm.onsubmit = function (e) {
   if (currentUser) {
     alert("Đăng nhập thành công");
     localStorage.setItem("userLogin", JSON.stringify(currentUser));
-    window.location.href = "/home.html";
+    window.location.href = "./home.html";
   } else {
     alert("Thông tin đăng nhập không chính xác");
   }

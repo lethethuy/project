@@ -20,11 +20,11 @@ iconclose.onclick = function () {
 
 btnLogin.onclick = function () {
   console.log("aaaa");
-  window.location = "http://127.0.0.1:5500/login.html";
+  window.location = "./login.html";
 };
 carouselinner.onclick = function () {
   console.log("aaaa");
-  window.location = "http://127.0.0.1:5500/buy.html";
+  window.location = "./buy.html";
 };
 
 
@@ -36,7 +36,7 @@ if (islogin) {
   loginbtn.style.display = "none";
   let logoutbtn = document.getElementById("btnlogout");
   logoutbtn.style.display = "block";
-  let myNameacount = document.getElementById("myNameacount"); 
+  let myNameacount = document.getElementById("myNameacount");
   myNameacount.innerText = islogin.fname;
   myNameacount.value = myNameacount.innerHTM;
   console.log(myNameacount);

@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thanks</title>
-    <link rel="stylesheet" href="./OK.CSS" />
+    <title>login</title>
+    <link rel="stylesheet" href="../css/login.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -20,7 +20,7 @@
             <i class="fa-solid fa-bars"></i>
           </div>
           <div class="logo">
-            <img src="./img/Screen Shot 2023-04-19 at 19.28.52.png" alt="" />
+            <img src="../img/Screen Shot 2023-04-19 at 19.28.52.png" alt="" />
           </div>
           <div class="search">
             <input placeholder="Tìm kiếm" type="text" />
@@ -36,13 +36,22 @@
 
     <!-- Main -->
     <section id="main">
-      <div>
-        <i class="fa-solid fa-circle-check"></i> ĐƠN ĐẶT HÀNG THÀNH CÔNG
+      <div class="login-main">
+        <div><h3>TRUY CẬP VÀO TÀI KHOẢN CỦA BẠN</h3></div>
+        <form id="login-main" action="">
+          <div>
+            <input id="email" placeholder="ĐỊA CHỈ EMAIL" type="text" />
+          </div>
+          <div><input id="password" placeholder="MẬT KHẨU" type="password" /></div>
+          <div><button class="btn-login">ĐĂNG NHẬP</button></div>
+          <br />
+
+          <a id="link" href="#">Quý khách đã quên mật khẩu?</a>
+        </form>
       </div>
-      <div class="thankyou"><h1>CẢM ƠN VÀ XIN HẸN GẶP LẠI QUÝ KHÁCH!</h1></div>
-      <div>
-        <button class="btn-home">Trang Chủ</button>
-        <button class="btn-purchaseorder">ĐƠN MUA</button>
+      <div class="register-main">
+        <div><h3>TRUY CẬP VÀO TÀI KHOẢN CỦA BẠN</h3></div>
+        <button id="btn-register" class="btn-register">ĐĂNG KÝ</button>
       </div>
     </section>
 
@@ -92,6 +101,6 @@
       <div>© ALL RIGHTS RESERVED</div>
     </section>
 
-    <script src="./OK.js"></script>
+    <script src="../js/login.js"></script>
   </body>
 </html>

@@ -1,23 +1,10 @@
-let detailProducts = JSON.parse(localStorage.getItem("dataclickImg")); // gọi dữ liệu từ local về dưới dạng mảng
-console.log(detailProducts);
+let detailProducts = JSON.parse(localStorage.getItem("dataclickImg")) || [];
 let dataCart = JSON.parse(localStorage.getItem("dataCart")) || [];
-console.log(dataCart);
-
 let detailProduct_container = document.getElementById(
   "detailProduct_container"
 );
 console.log(detailProduct_container);
-// let btnAdd = document.getElementById("btnadd");
-// console.log(btnAdd);
-
-// let price = document.getElementById("money");
-// console.log(price);
-// let fname = document.getElementById("name");
-// console.log(fname);
-
 function renderDetailproduct() {
-  // console.log("aaa");
-
   detailProduct_container.innerHTML = `
         <div class="row align-items-start">
         <div class="col-3 left">
@@ -45,7 +32,6 @@ function renderDetailproduct() {
           <img src="${detailProducts.img1}" alt="" />
           <img src="${detailProducts.img2}" alt="" />
           <img src="${detailProducts.img3}" alt="" />
-
         </div>
         <div class="col-3 right">
           <div id="name">${detailProducts.name}</div>
@@ -83,11 +69,7 @@ function renderDetailproduct() {
                 </button>
               </div>
           </form>
-          
           <hr>
-        
-
-
           <div class="size6">KIỂM TRA TÌNH TRẠNG CÒN HÀNG</div>
           <div>GỬI, ĐỔI VÀ HOÀN TRẢ HÀNG</div>
         </div>
@@ -96,30 +78,62 @@ function renderDetailproduct() {
 }
 renderDetailproduct();
 
+// hàm cũ
+
+// function addCart(id, event) {
+//   event.preventDefault();
+//   let indexInCart = findIndexbyid(id, dataCart);
+//   console.log(indexInCart);
+//   if (indexInCart) {
+//     indexInCart.amount += 1;
+//     localStorage.setItem("dataCart", JSON.stringify(dataCart));
+//   } else {
+//     dataCart.push(detailProducts);
+//     localStorage.setItem("dataCart", JSON.stringify(dataCart));
+//   }
+// }
+// function findIndexbyid(element, array) {
+//   let index = -1;
+//   for (let i = 0; i < array.length; i = i + 1) {
+//     if (array[i].id == element) {
+//       index = i;
+//       break;
+//     }
+//   }
+//   return index;
+// }
+// Với cách kiểm tra index như này, nếu findIndexbyid không tìm thấy phần tử trong mảng thì nó 
+// sẽ trả về giá trị -1. trong điều kiện if (indexInCart !== -1) nó chỉ kiểm tra nếu tìm 
+// thấy index khác -1 thì mới tăng amount lên 1. Tuy nhiên trong trường hợp đầu tiên khi anh thêm vào giỏ hàng, 
+// biến dataCart là một mảng rỗng, nên findIndexbyid sẽ trả về giá trị là -1. dẫn đến trong điều kiện if (indexInCart !== -1)
+// không thỏa mãn nên sẽ thêm một phần tử mới vào giỏ hàng.
+
+
+
+// sửa lại hàm findIndexbyid để trả về null thay vì -1 khi không tìm thấy phần tử. 
+// Sau đó, trong điều kiện if (indexInCart !== null) anh kiểm tra nếu tìm thấy phần tử thì mới tăng amount lên 1
+
 function addCart(id, event) {
   event.preventDefault();
-  console.log(id);
   let indexInCart = findIndexbyid(id, dataCart);
   console.log(indexInCart);
-  // console.log(dataCart[indexInCart]);
-  if (indexInCart) {
-    console.log("tang len");
+  if (indexInCart !== null) {
+    console.log("tăng lên");
     indexInCart.amount += 1;
     localStorage.setItem("dataCart", JSON.stringify(dataCart));
-    // console.log(dataCart[indexInCart].amount);
   } else {
+    console.log("tạo mới");
     dataCart.push(detailProducts);
-    console.log("tao moi");
     localStorage.setItem("dataCart", JSON.stringify(dataCart));
   }
 }
 
 function findIndexbyid(element, array) {
-  let index = -1;
   for (let i = 0; i < array.length; i = i + 1) {
-    if ((array[i].id = element)) {
-      index = array[i];
+    if (array[i].id == element) {
+      return array[i];
     }
   }
-  return index;
+  return null;
 }
+
